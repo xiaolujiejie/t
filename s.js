@@ -1,6 +1,6 @@
 
 
-const $ = new Env('i 昇');
+const $ = new Env('i 的');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const MT_INFO = '028e7f96f6369cafe1d105579c5b9377';
 const nowDate = parseInt((new Date().getTime() / 1000).toString());  // 当前时间戳
